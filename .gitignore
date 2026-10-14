@@ -1,0 +1,4 @@
+# Large, regenerable with tools/mirror_site.py
+mirror/assets/
+mirror/screenshots/
+__pycache__/

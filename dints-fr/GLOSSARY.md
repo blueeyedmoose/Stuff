@@ -1,82 +1,111 @@
 # Dints.com - French (fr-FR) Glossary
 
-Working glossary for the French version of www.dints.com, served under `/fr/`.
-The same file will be extended with Spanish (`/es/`) and Portuguese (`/pt/`)
-columns once French is signed off.
+Terminology used in the French version of www.dints.com, served under `/fr/`.
+Spanish (`/es/`) and Portuguese (`/pt/`) columns will be added once French is
+signed off. Every translated string lives in `strings.json`; this file records
+the decisions behind them.
 
-## 1. Never translate
+## 1. Never translated
 
-| Term | Notes |
+| Kept as-is | Why |
 |---|---|
-| Dints | Company name |
-| Dints International / Dints International Ltd | Company name |
-| Product names and OEM brand names | e.g. machine and manufacturer names, kept exactly as written |
-| People's names, street addresses, email addresses, phone numbers | e.g. 49 Grosvenor Street, sales@dints.com |
+| Dints, Dints International, Dints International Ltd | Company names |
+| MCA Group, Kanu Equipment, GPC, SMCG, ETS MSSZ, Simandou 2040 | Customer and project names |
+| UK Export Finance, British Exporters Association | Organisation names |
+| Geoffrey de Mowbray | Person |
+| Pro, Premium, Enterprise, Wealthis, Loonis Studio, Apple Pay, Whatsapp | Product and brand names |
+| Atkinson Hyperlegible Next / Mono | Font names |
+| Postal addresses (e.g. 15-19 Bloomsbury Way, London WC1A 2TH, United Kingdom) | So mail still arrives |
+| Email addresses, phone numbers, Incoterms, OEM, ECA, SLA, API, FAQ | Codes and standard abbreviations |
 
-**To confirm:** city and country names. French normally writes "Londres" for London.
-Keep "London" as a proper noun, or use the French spelling?
+Place names inside sentences use the French form (Londres, Afrique du Sud,
+Guinée, Pérou, Philippines). Place names inside postal addresses stay in English.
 
-## 2. Navigation and page names
-
-| English | French | Alternative |
-|---|---|---|
-| Home | Accueil | |
-| About us | À propos | Qui sommes-nous |
-| Industries | Secteurs | Industries |
-| Mining | Mines | Exploitation minière |
-| Agriculture | Agriculture | |
-| Road and Rail | Routier et ferroviaire | Route et rail |
-| Construction & Infrastructure | Construction et infrastructures | |
-| Sustainable Trade | Commerce durable | |
-| Finance | Financement | Finance |
-| Partners | Partenaires | |
-| Jobs | Carrières | Emplois |
-| Contact | Contact | |
-
-## 3. Industry and business terms
+## 2. Navigation
 
 | English | French |
 |---|---|
-| heavy equipment | engins lourds |
-| heavy equipment and parts | engins lourds et pièces détachées |
-| multi-brand | multimarque |
-| OEMs | constructeurs (OEM) |
-| financial solutions | solutions de financement |
-| credit facilities | lignes de crédit |
-| extended payment terms of 30 - 120 days | délais de paiement étendus de 30 à 120 jours |
-| traceability | traçabilité |
-| recycling | recyclage |
-| banks, fintechs and local agents | banques, fintechs et agents locaux |
-| over 150 countries | plus de 150 pays |
+| HOME | ACCUEIL |
+| Solutions | Solutions |
+| Discover / Source / Finance / Deliver | Découverte / Sourcing / Financement / Livraison |
+| Industries | Secteurs |
+| Agriculture | Agriculture |
+| Construction (& Infrastructure) | Construction (et infrastructures) |
+| Healthcare | Santé |
+| Hospitality | Hôtellerie |
+| Clean Energy | Énergies propres |
+| Mining | Mines |
+| Use cases | Cas d'usage |
+| Machinery & Equipment | Machines et équipements |
+| Leasing & Rentals | Crédit-bail et location |
+| Project Delivery | Réalisation de projets |
+| Rebuilds & Refurbishments | Reconstruction et reconditionnement |
+| Export Credit Agency Support / ECA Support | Accompagnement crédit export / Accompagnement ECA |
+| Inventory & Floorplan | Financement des stocks |
+| Company | Entreprise |
+| About Us / ABOUT | À propos / À PROPOS |
+| Contact Us / CONTACT US | Nous contacter / CONTACT |
+| Insights / INSIGHTS | Analyses / ANALYSES |
+| FOR SUPPLIERS / FOR PARTNERS | FOURNISSEURS / PARTENAIRES |
+| DASHBOARD | MON ESPACE (shorter than ESPACE CLIENT, so the menu fits at the same widths as English) |
+| Get Started | Commencer |
+| Learn More | En savoir plus |
 
-## 4. Buttons and interface text
+## 3. Business terms
 
 | English | French |
 |---|---|
-| Contact us | Nous contacter |
-| Get / Request a quote | Demander un devis |
-| Learn more / Read more | En savoir plus |
-| Submit / Send | Envoyer |
-| Subscribe | S'abonner |
-| Thank you! Your submission has been received! | Merci ! Votre message a bien été envoyé. |
-| Oops! Something went wrong | Oups ! Une erreur s'est produite |
-| Privacy Policy | Politique de confidentialité |
-| Terms & Conditions | Conditions générales |
-| Cookie Policy | Politique relative aux cookies |
-| Accept / Decline | Accepter / Refuser |
-| All rights reserved | Tous droits réservés |
+| procurement | approvisionnement (achats when about buying) |
+| sourcing / to source | sourcing / sourcer |
+| supplier | fournisseur |
+| OEM | OEM (constructeur d'origine) |
+| dealer | concessionnaire |
+| genuine OEM parts | pièces d'origine OEM |
+| approved alternatives | alternatives agréées |
+| spare parts | pièces détachées |
+| multi-brand / multi-supplier | multimarque / multifournisseur |
+| one point of contact | un interlocuteur unique |
+| RFQ | demande de devis |
+| quotation | devis |
+| credit facility | ligne de crédit / facilité |
+| extended payment terms | délais de paiement étendus |
+| export credit agency (ECA) | agence de crédit à l'exportation (ECA) |
+| ECA-backed | garanti par une ECA |
+| due diligence | due diligence |
+| drawdown | décaissement |
+| financial close | closing financier |
+| working capital | fonds de roulement |
+| cash flow | trésorerie |
+| leasing | crédit-bail |
+| floorplan finance | financement des stocks (floor plan) |
+| rebuild / refurbishment | reconstruction / reconditionnement |
+| collection (from supplier) | enlèvement |
+| consolidation (freight) | groupage |
+| air, sea, road and express freight | fret aérien, maritime, routier et express |
+| customs clearance | dédouanement |
+| multi-site delivery | livraison multisite |
+| case study | étude de cas |
+
+## 4. Money and numbers
+
+| English | French |
+|---|---|
+| $50m | 50 M$ |
+| $50 million | 50 millions de dollars |
+| €15m | 15 M€ |
+| $0.7m to $37.5m | de 0,7 M$ à 37,5 M$ |
+| $2 billion+ | 2+ milliards $ ("Md$" reads oddly once the site styling capitalises it) |
+| 20+ years / 30+ countries | 20+ ans / 30+ pays |
+| Language link | English (FR pages) / Français (EN pages), in the footer's Company column |
+| 24 hours | 24 heures |
 
 ## 5. Style rules (fr-FR)
 
 - Formal **vous** throughout.
-- Non-breaking space before `: ; ! ?` and inside « guillemets ».
-- Numbers: `1 234,50` (space for thousands, comma for decimals).
-- Currency after the number: `1 234,50 €` (prices themselves are not converted).
-- Dates: `14 octobre 2026`. Months and weekdays are lower case.
-- Title case is not used in French headings. Only the first word and proper nouns are capitalised.
-
-## 6. Open points
-
-- Search results suggest the **Jobs** and **Construction & Infrastructure** pages still
-  hold template text about architecture and interior design. Translate as-is to mirror
-  the English site, or flag them and leave them for you to rewrite first?
+- Non-breaking space before `: ; ! ?`, curly apostrophes (’) and a real ellipsis (…).
+  These are applied automatically by `tools/merge_translations.py`.
+- Numbers: `1 234,50`. Currency symbol after the number.
+- Headings in sentence case (French does not use title case).
+  Text that is all capitals in English stays all capitals, with accents (É, À).
+- FAQ questions are addressed to "vous" rather than "Dints" to avoid gendering the brand.
+- No em dashes. Commas, colons or a plain hyphen instead.
